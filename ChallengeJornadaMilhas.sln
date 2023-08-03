@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChallengeJornadaMilhas", "ChallengeJornadaMilhas\ChallengeJornadaMilhas.csproj", "{CDDB3814-0CA9-4850-B784-FA2D895FAC42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChallengeJornadaMilhas", "ChallengeJornadaMilhas\ChallengeJornadaMilhas.csproj", "{CDDB3814-0CA9-4850-B784-FA2D895FAC42}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JornadaMilhas.Data", "JornadaMilhas.Data\JornadaMilhas.Data.csproj", "{A094AF3F-A7E9-46E0-B7A6-FEA957465558}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JornadaMilhas.Business", "JornadaMilhas.Business\JornadaMilhas.Business.csproj", "{AF9BC123-DC1F-4FCB-8C5A-E913521CEB92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JornadaMilhas.Business", "JornadaMilhas.Business\JornadaMilhas.Business.csproj", "{AF9BC123-DC1F-4FCB-8C5A-E913521CEB92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

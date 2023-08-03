@@ -1,8 +1,6 @@
 ﻿using JornadaMilhas.Business.Interfaces;
 using JornadaMilhas.Business.Models;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace JornadaMilhas.Business.Services
@@ -19,7 +17,7 @@ namespace JornadaMilhas.Business.Services
 
         public async Task Adicionar(Depoimento depoimento)
         {
-            if (!ExecutarValidacao(new DepoimentoValidation(), Depoimento)) return;
+            //if (!ExecutarValidacao(new DepoimentoValidation(), depoimento)) return;
 
             //var user = _user.GetUserId();
 
@@ -28,7 +26,7 @@ namespace JornadaMilhas.Business.Services
 
         public async Task Atualizar(Depoimento depoimento)
         {
-            if (!ExecutarValidacao(new DepoimentoValidation(), Depoimento)) return;
+            //if (!ExecutarValidacao(new DepoimentoValidation(), depoimento)) return;
 
             await _depoimentoRepository.Atualizar(depoimento);
         }

@@ -8,4 +8,12 @@
     <Folder Include="Migrations\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JornadaMilhas.Business\JornadaMilhas.Business.csproj" />
+  </ItemGroup>
+
 </Project>
